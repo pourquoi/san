@@ -1,0 +1,12 @@
+.idea
+cmake-build-debug
+San/
+*.ncb
+*.dsp
+*.dsw
+*.sln
+*.suo
+*.vcproj
+*.vcproj.*
+diagramme.cdg
+log.txt

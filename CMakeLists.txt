@@ -1,0 +1,71 @@
+cmake_minimum_required(VERSION 3.21)
+project(San___Software_Engine)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(src)
+include_directories(wxFormBuilder)
+
+add_executable(San___Software_Engine
+        src/demo.cpp
+        src/MyRenderTarget.h
+        src/San.h
+        src/SanBresenham.cpp
+        src/SanBresenham.h
+        src/SanCamera.cpp
+        src/SanCamera.h
+        src/SanCommonHeaders.h
+        src/SanEntity.cpp
+        src/SanEntity.h
+        src/SanGeometryNode.h
+        src/SanIndexedMesh.cpp
+        src/SanIndexedMesh.h
+        src/SanLight.cpp
+        src/SanLight.h
+        src/SanMaths.cpp
+        src/SanMaths.h
+        src/SanMatrix3.cpp
+        src/SanMatrix3.h
+        src/SanMatrix4.cpp
+        src/SanMatrix4.h
+        src/SanMem.cpp
+        src/SanMem.h
+        src/SanMesh.cpp
+        src/SanMesh.h
+        src/SanMeshManager.cpp
+        src/SanMeshManager.h
+        src/SanNewtonNode.h
+        src/SanNode.cpp
+        src/SanNode.h
+        src/SanPlan.cpp
+        src/SanPlan.h
+        src/SanPrimitives.cpp
+        src/SanPrimitives.h
+        src/SanRenderer.cpp
+        src/SanRenderer.h
+        src/SanRenderTarget.cpp
+        src/SanRenderTarget.h
+        src/SanRessourceManager.cpp
+        src/SanRessourceManager.h
+        src/SanScene.cpp
+        src/SanScene.h
+        src/SanSoftwareRenderer.cpp
+        src/SanSoftwareRenderer.h
+        src/SanStdHeaders.h
+        src/SanTexture.cpp
+        src/SanTexture.h
+        src/SanTriangle.cpp
+        src/SanTriangle.h
+        src/SanTypes.h
+        src/SanVector.h
+        src/SanViewport.cpp
+        src/SanViewport.h
+        src/softwareengine.cpp
+        src/WXMainFrame.cpp
+        src/WXMainFrame.h
+        src/WXSceneMenu.cpp
+        src/WXSceneMenu.h
+        src/WXSceneTree.cpp
+        src/WXSceneTree.h
+        wxFormBuilder/noname.cpp
+        wxFormBuilder/noname.h)

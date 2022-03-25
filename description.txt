@@ -1,0 +1,5 @@
+C'est un moteur de rendu entièrement logiciel avec aussi quelques éléments de moteur 3D.
+Il gère les transformations géométriques, projection, remplissage, illumination Phong et Gouraud et
+application de texture avec correction de perspective.
+N'utilise que la librairie standard du c++.
+Ici il est intégré dans une interface graphique utilisant la librairie wxWidgets.
